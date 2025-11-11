@@ -32,7 +32,7 @@ jobs:
       - name: Upload dist folder
         uses: actions/upload-pages-artifact@v3
         with:
-          path: dist/taskmanager/browser # ✅ عدّلي الاسم حسب مشروعك
+          path: dist/todolist/browser # ✅ must point to your Angular build output
 
   deploy:
     environment:
